@@ -8,13 +8,13 @@ import javax.sql.DataSource; //ctrl+shift+o  :: To import packages
 
 import com.shaan.bo.EmployeeBO;   
 
-public class EmployeeDAOImpl implements IEmployeeDAO {
+public class EmployeeOracleDAOImpl implements IEmployeeDAO {
 	private static final String EMP_INSERT_QUERY="INSERT INTO REALTIMEDI_SPRING_EMPLOYEE VALUES(SP_ENO_SEQ.NEXTVAL,?,?,?,?,?)";
 	//HAS-A Property
 	private DataSource ds;
 	
 	//Alt+shift+s, o // To get parametrazed constructor
-	public EmployeeDAOImpl(DataSource ds) {
+	public EmployeeOracleDAOImpl(DataSource ds) {
 		System.out.println("EmployeeDAOImpl::1-param constructor");
 		this.ds = ds;
 	}
