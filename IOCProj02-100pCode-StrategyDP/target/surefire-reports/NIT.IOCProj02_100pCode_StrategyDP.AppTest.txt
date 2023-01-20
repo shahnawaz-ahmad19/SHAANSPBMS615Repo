@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: NIT.IOCProj02_100pCode_StrategyDP.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in NIT.IOCProj02_100pCode_StrategyDP.AppTest
