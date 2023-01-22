@@ -26,7 +26,7 @@ public class BootProj02AutoConfigurationApplication {
 	  return cds;
 	}
 	  
-
+  
 	public static void main(String[] args) {
 		//get IOC container
 		ApplicationContext ctx=SpringApplication.run(BootProj02AutoConfigurationApplication.class, args);
