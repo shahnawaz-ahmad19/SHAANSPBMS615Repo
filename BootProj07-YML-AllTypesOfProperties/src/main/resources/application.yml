@@ -1,0 +1,40 @@
+
+#personal info
+per:
+   info:
+      #simple properties
+      pid: 1001
+      pname: Shaan
+        #array properties
+      favColors:
+         - red
+         - green
+         - blue
+         #List-collection
+      studies:
+          - 10+2-MPC
+          - B.TECH-EE
+          - M.TECH-IT
+         #Set Collection
+      phoneNumbers:
+           - 8871523690
+           - 8871523690
+           - 8695857544
+           - 4871874690 
+         #Map collection    
+      id-details:
+          aadharNo: 545412789
+          panNo: BYUP569012
+          voterID: 895213012
+          #HAS-A property          
+      jobinfo: 
+         desg: Developer
+         company: HCL Technologies
+         deptNo: 6678
+         
+
+
+
+
+
+
